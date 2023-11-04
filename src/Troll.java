@@ -1,20 +1,15 @@
 public class Troll {
     public static String disemvowel(String str) {
-        // Code away...
+        StringBuffer sb = new StringBuffer();
+        int count = 0;
 
-//        System.out.println("fag");
-//        return str;
-
-        //new Integer = 1;
-//        public static void sayWord()
-//    {
-//
-//    }
+        while(count < str.length()){
+            System.out.println(str.charAt(count));
+            count ++;
+            }
 
         System.out.println(str);
-            return str;
-
-
+        return str;
 
     }
 }

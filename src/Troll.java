@@ -4,11 +4,12 @@ public class Troll {
         int count = 0;
 
         while(count < str.length()){
-            System.out.println(str.charAt(count));
+            sb.append(str.charAt(count));
+
             count ++;
             }
 
-        System.out.println(str);
+        System.out.println(sb);
         return str;
 
     }
